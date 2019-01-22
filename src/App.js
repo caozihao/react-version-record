@@ -1,7 +1,14 @@
-import React, { Component,lazy,Suspense } from 'react';
+import React, { Component } from 'react';
 import './App.css';
+// v.16.3
+import DevTools from './v16.3.0/LifeCycle/DevTools.jsx';
+import ContextApp from './v16.3.0/Context/Context.jsx';
+import ToggleTheme1 from './v16.3.0/Context/ToggleTheme/example1/App.jsx';
+import ToggleTheme2 from './v16.3.0/Context/ToggleTheme/example2/App.jsx';
+// v.16.4
 import Point from './v16.4.0/Point.jsx';
-import DevTools from './v16.5.0/DevTools.jsx';
+
+
 
 class App extends Component {
   constructor(props){
@@ -11,8 +18,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/* <Point /> */}
-        <DevTools />
+        {/* <DevTools /> */}
+          {/* <ToggleTheme1 /> */}
+          <ToggleTheme2 />
+          {/* <Point /> */}
       </div>
     );
   }

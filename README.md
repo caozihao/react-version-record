@@ -14,6 +14,7 @@
 *  2018.5.23
 *  主要内容   
     * 修复getDerivedStateFromProps Bug
+      将该生命周期的触发修改为无论是Mounting还是Updating，也无论是因为什么引起的Updating，全部都会被调用，而在16.3版本中时，只有props才会触发
     * 支持以下指针事件  
     onPointerDown   
     onPointerMove   
@@ -29,6 +30,7 @@
 ##  16.3
 * 2018.3.27
 * 主要内容
+  * 添加上下文context
   * 未来17.x版本将移除以下三个生命周期  
   componentWillMount  
   componentWillReceiveProps   
