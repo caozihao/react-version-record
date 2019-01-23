@@ -1,11 +1,10 @@
 import React, { Component,lazy,Suspense } from 'react';
-import './App.css';
 
 const DynamicComponent = lazy(() => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve(import('./v16.7/A'));
-    }, 3000);
+      resolve(import('./Bar.jsx'));
+    }, 2000);
   });
 });
 

@@ -4,13 +4,30 @@
 *  日期
 *  内容 -->
 
-## 16.5
+##  v16.7
+*   2018.12.19
+*   内容
+    *   修正React.lazy的错误
+    *   即将睿初Hooks
+##  v16.6
+*   2018.10.23
+*   内容
+    *   memo
+    *   lazy,Suspense
+    *   static contextType
+
+##  React App 2.0
+*   2018.10.1
+*   内容
+    *   支持Babel 7，Sass等等
+
+## v16.5
 *  2018.9.10
 *  内容 
     *   增加了对新DevTools探查器插件的支持,面板添加Profiler
 
 
-## 16.4
+## v16.4
 *  2018.5.23
 *  主要内容   
     * 修复getDerivedStateFromProps Bug
@@ -27,7 +44,7 @@
     onPointerOver   
     onPointerOut    
 
-##  16.3
+##  v16.3
 * 2018.3.27
 * 主要内容
   * 添加上下文context
